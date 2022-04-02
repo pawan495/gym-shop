@@ -46,22 +46,40 @@ db.once('open', async () => {
       quantity: 200
     },
     {
-      name: 'Handmade Soap',
+      name: ' Carbon Strength Flat Bench',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
-      price: 3.99,
+        'A new take on a classic piece of equipment, the rolling flat bench from ProForm offers heavy-duty support through your most intense weightlifting routines.',
+      image: 'bench4.jpg',
+      price: 99.99,
+      quantity: 10
+    },
+    {
+      name: 'ProForm - Carbon Strength Adjustable Bench',
+      category: categories[1]._id,
+      description:
+        'ProForm’s Carbon Strength Adjustable Bench delivers versatile support for your at-home strength training routine. A reinforced frame has been tested to bear a total of up to 610 Lbs., and can easily adjust between decline, flat, incline, and military positions.',
+      image: 'bench1.jpg',
+      price: 199.99,
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
+      name: 'Sport Olympic Rack and Bench XT ',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
-      image: 'wooden-spoons.jpg',
-      price: 14.99,
-      quantity: 100
+        'Offering multiple workout stations in a single, compact design, the ProForm Sport XT Olympic Squat Rack and Bench provide the versatility you need to build comprehensive strength in the comfort of your own living room. Adjustable uprights are designed to be compatible with seven-foot Olympic-sized barbells (not included) and can be modified to fit your frame and lifting style.',
+      image: 'bench2.jpg',
+      price: 299.99,
+      quantity: 5
+    },
+    {
+      name: ' PR3000 Home Gym ',
+      category: categories[1]._id,
+      description:
+        'The Bowflex PR3000 is a total-body home gym with more than 50 strength exercises and no cable changes needed between sets using the Quick Change Power Rod system.',
+      image: 'bench3.jpg',
+      price: 999.99,
+      quantity: 10
     },
     {
       name: 'Camera',
