@@ -206,6 +206,17 @@ db.once('open', async () => {
       price: 129.99,
       quantity: 100
     },
+
+    {
+      name: 'Commercial S22i Studio Cycle ',
+      category: categories[3]._id,
+      description:
+        'The NordicTrack Commercial S22i Studio Cycle brings the cycling studio to your home with this interactive model designed to mimic having a personal cycling coach in your home. It's powered by iFit, an interactive, connected fitness platform loaded with content.t',
+      image: 'machine5.jpg',
+      price: 1429.99,
+      quantity: 100
+    },
+  
     {
       name: 'Gatorade Perform Sports Drink Variety Pack, 591-mL, 24-pk',
       category: categories[4]._id,
