@@ -118,9 +118,21 @@ db.once('open', async () => {
         'Olympic Weights Set is ideal for developing upper body strength. Durable cast iron construction .Dimensions: 84 L x 11 W x 11" H (213 x 28 x 28 cm)Total weight: 110 lb (49.89 kg)',
         image: 'iron4.webp',
         category: categories[0]._id,
-      price: 24.99,
+      price: 249.99,
       quantity: 200
     },
+
+    {
+      name: 'Cap Barbell Olympic Bar, 7-ft',
+      category: categories[0]._id,
+      description:
+        'Cap Olympic Bar is great for powerlifting and Olympic lifting',
+        image: 'iron5.webp',
+        category: categories[0]._id,
+      price: 249.99,
+      quantity: 200
+    },
+
 
     {
       name: ' Carbon Strength Flat Bench',
