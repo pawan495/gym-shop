@@ -210,13 +210,52 @@ db.once('open', async () => {
     {
       name: 'Commercial S22i Studio Cycle ',
       category: categories[3]._id,
-      description:
-        'The NordicTrack Commercial S22i Studio Cycle brings the cycling studio to your home with this interactive model designed to mimic having a personal cycling coach in your home. It's powered by iFit, an interactive, connected fitness platform loaded with content.t',
+      description: 'The NordicTrack Commercial S22i Studio Cycle brings the cycling studio to your home with this interactive model designed to mimic having a personal cycling coach in your home',
       image: 'machine5.jpg',
       price: 1429.99,
       quantity: 100
     },
   
+    {
+      name: 'Air Runner ',
+      category: categories[3]._id,
+      description:
+        'Stepping onto the treadmill to log another mindless 30-minute jog might sound like the most unappealing way to spend a workout — so donot waste your time',
+      image: 'machine6.jpeg',
+      price: 1329.99,
+      quantity: 100
+    },
+
+    {
+      name: 'Assault Airbike ',
+      category: categories[3]._id,
+      description:
+        'The Assault AirBike might look like it belongs in a dust-filled corner of your high school weight room, but it deserves respect. No one climbs off of one of these thinking, That was easy says De Wispelaere, who has seen a few clients almost heave after an Assault AirBike workout.',
+      image: 'machine7.jpg',
+      price: 929.99,
+      quantity: 100
+    },
+
+    {
+      name: 'Smart Rower ',
+      category: categories[3]._id,
+      description:
+        'This Echelon rower is super ergonomic. Not only does it fold upright for convenient storage, its device holder swivels 90° and flips 180°, and the resistance controls are located on handlebars for easy adjusting. Plus, it has 32 levels of magnetic resistance for a customized workout. If you prefer, you can also subscribe to the Echelon Fit membership to get access to on-demand and live classes.',
+      image: 'machine8.jpg',
+      price: 829.99,
+      quantity: 100
+    },
+
+    {
+      name: 'Jacobs Ladder Step Machine',
+      category: categories[3]._id,
+      description:
+        'Climbing a ladder isn't so bad. But what if that ladder kept going up and up and up? Suddenly, that ascent becomes a monstrous workout. That's the idea behind Jacobs Ladder, a self-paced machine that requires you to climb endlessly upward.',
+      image: 'machine9.jpg',
+      price: 3989.99,
+      quantity: 100
+    },
+
     {
       name: 'Gatorade Perform Sports Drink Variety Pack, 591-mL, 24-pk',
       category: categories[4]._id,
