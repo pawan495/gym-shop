@@ -82,22 +82,31 @@ db.once('open', async () => {
       quantity: 10
     },
     {
-      name: 'Camera',
+      name: 'ProForm 325 CSX Bike ',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
-      image: 'camera.jpg',
+        ' Get the competitive edge on the ProForm 325 CSX Recumbent Bike. With iFIT technology, you can ride around the globe and follow along with elite personal trainers. ',
+      image: 'machine1.jpg',
       price: 399.99,
-      quantity: 30
+      quantity: 25
     },
     {
-      name: 'Tablet',
+      name: ' S22i Studio Cycle with UPGRADED 22” HD Touchscreen',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
+        'Bring an unmatched, interactive personal training experience home with the NordicTrack Commercial S22i Studio Cycle.',
+      image: 'machine2.jpg',
+      price: 1499.99,
+      quantity: 3
+    },
+    {
+      name: ' Carbon T10 Treadmill',
+      category: categories[2]._id,
+      description:
+        ' Bring interactive personal training into your living room with the ProForm Carbon T10 smart treadmill.',
+      image: 'machine3.jpg',
+      price: 999.99,
+      quantity: 6
     },
     {
       name: 'Tales at Bedtime',
