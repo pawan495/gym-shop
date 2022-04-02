@@ -53,9 +53,53 @@ db.once('open', async () => {
         'Automatically change your resistance from 5 lbs (2.27 kg) up to 52.5 lbs (23.8 kg) in 2.5 lb. increments up to 25 lb',
         image: 'adjustabledumbell.webp',
         category: categories[0]._id,
-      price: 27.99,
+      price: 249.99,
       quantity: 200
     },
+
+    {
+      name: 'Cap Barbell rubber hex dumbbell set',
+      category: categories[0]._id,
+      description:
+        'Set includes a pair of 5 lb, 10 lb, 15 lb, 20 lb, and 25 lb (2.2, 4.5, 6.8, 9. and 11.3 kg) 12-sided rubber hex dumbbells with an A-frame dumbbell rack to store the weights',
+        image: 'dumbellset.webp',
+        category: categories[0]._id,
+      price: 599.99,
+      quantity: 200
+    },
+
+    {
+      name: 'CAP Spinlock Dumbbell Weights',
+      category: categories[0]._id,
+      description:
+        'CAP Spinlock Dumbbell Weights are a great addition for any weight outfit Two 15" (38.1 cm) chrome spinlock dumbbell bars',
+        image: 'spinlock.webp',
+        category: categories[0]._id,
+      price: 89.99,
+      quantity: 200
+    },
+    {
+      name: 'Cast Iron Weight Plate',
+      category: categories[0]._id,
+      description:
+        'Cast Iron Weight Plate features a cast iron construction that will provide a lifetime of use',
+        image: 'iron1.jpeg',
+        category: categories[0]._id,
+      price: 12.99,
+      quantity: 200
+    },
+
+    {
+      name: 'CAP Olympic Plate 25-lb Weights Set, 2-pc',
+      category: categories[0]._id,
+      description:
+        'CAP Olympic Plate 25-lb Weights Set will help strengthen your upper body and is convenient to use in the comfort of your own home',
+        image: 'iron2.webp',
+        category: categories[0]._id,
+      price: 12.99,
+      quantity: 200
+    },
+
     {
       name: ' Carbon Strength Flat Bench',
       category: categories[1]._id,
