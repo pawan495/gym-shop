@@ -207,19 +207,19 @@ db.once('open', async () => {
       quantity: 100
     },
     {
-      name: 'Spinning Top',
+      name: 'Gatorade Perform Sports Drink Variety Pack, 591-mL, 24-pk',
       category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
+      description: 'Gatorade Perform Sports Drink Variety Pack features a unique blend of carbohydrates and electrolytes to ensure you stay hydrated when active',
+      image: 'supp1.webp',
+      price: 21.99,
       quantity: 1000
     },
     {
-      name: 'Set of Plastic Horses',
+      name: 'C4 Ripped Sport Pre-Workout Powder, Arctic Snow, 246-g',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
+        'C4 Ripped Sport Pre-Workout Powder utilizes a revolutionary fat-loss formula to help shred up your physique to meet your fitness goals',
+      image: 'supp2.webp',
       price: 2.99,
       quantity: 1000
     },
