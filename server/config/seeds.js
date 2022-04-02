@@ -96,7 +96,29 @@ db.once('open', async () => {
         'CAP Olympic Plate 25-lb Weights Set will help strengthen your upper body and is convenient to use in the comfort of your own home',
         image: 'iron2.webp',
         category: categories[0]._id,
-      price: 12.99,
+      price: 25.99,
+      quantity: 200
+    },
+
+    {
+      name: 'Cap Barbell 12-Sided Olympic Rubber Coated Plate Set',
+      category: categories[0]._id,
+      description:
+        'Cap Barbell 12-Sided Olympic Rubber Coated Plate will protect your floors from damage',
+        image: 'iron3.webp',
+        category: categories[0]._id,
+      price: 24.99,
+      quantity: 200
+    },
+
+    {
+      name: 'Olympic Weights Set, 110-lb, 7-pc',
+      category: categories[0]._id,
+      description:
+        'Olympic Weights Set is ideal for developing upper body strength. Durable cast iron construction .Dimensions: 84 L x 11 W x 11" H (213 x 28 x 28 cm)Total weight: 110 lb (49.89 kg)',
+        image: 'iron4.webp',
+        category: categories[0]._id,
+      price: 24.99,
       quantity: 200
     },
 
