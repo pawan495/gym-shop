@@ -5,11 +5,11 @@ db.once('open', async () => {
   await Category.deleteMany();
 
   const categories = await Category.insertMany([
-    { name: 'Food' },
-    { name: 'Household Supplies' },
-    { name: 'Electronics' },
-    { name: 'Books' },
-    { name: 'Toys' }
+    { name: 'Weight' },
+    { name: 'Benches' },
+    { name: 'Machines' },
+    { name: 'Supplements' },
+    { name: 'Misc' }
   ]);
 
   console.log('categories seeded');
@@ -18,31 +18,32 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: '5lb dumbbell',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'Tru Grit - 5-lb Hex Elite Dumbbell Single.',
+      image: '5lb-dumbbell.jpg',
       category: categories[0]._id,
-      price: 2.99,
+      price: 12.99,
+      quantity: 100
+    },
+    {
+      name: '20lb dumbbel',
+      description:
+        'Tru Grit - 20-lb Hex Rubber Coated Dumbbell Single.',
+      image: '20lb-dumbbell.jpg',
+      category: categories[0]._id,
+      price: 18.99,
       quantity: 500
     },
     {
-      name: 'Canned Coffee',
-      description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
-      image: 'canned-coffee.jpg',
+      name: '30lb dumbbel',
       category: categories[0]._id,
-      price: 1.99,
-      quantity: 500
-    },
-    {
-      name: 'Toilet Paper',
-      category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
-      image: 'toilet-paper.jpg',
-      price: 7.99,
-      quantity: 20
+        'Tru Grit - 30-lb Hex Elite Dumbbell Single.',
+        image: '30lb-dumbbell.jpg',
+        category: categories[0]._id,
+      price: 27.99,
+      quantity: 200
     },
     {
       name: 'Handmade Soap',
