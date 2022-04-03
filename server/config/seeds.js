@@ -9,7 +9,8 @@ db.once('open', async () => {
     { name: 'Benches' },
     { name: 'Machines' },
     { name: 'Supplements' },
-    { name: 'Misc' }
+    { name: 'Misc' },
+    {name: 'Full Smith'}
   ]);
 
   console.log('categories seeded');
@@ -290,7 +291,27 @@ db.once('open', async () => {
       image: 'supp4.webp',
       price: 29.99,
       quantity: 600
+    },
+    {
+      name: 'Marcy Combo Smith Machine',
+      category: categories[5]._id,
+      description:
+        'This Smith machine kind of does it all. Not only does it have steel aircraft cables that are rated at 2,000 pound tensile strength, but it also has a dual function leg developer with a pivot point that aligns with knee joints.',
+      image: 'full1.jpg',
+      price: 729.99,
+      quantity: 20
+    },
+
+    {
+      name: 'Force USA G3 All-In-One Trainer',
+      category: categories[3]._id,
+      description:
+        'This Smith machine kind of does it all. Not only does it have steel aircraft cables that are rated at 2,000 pound tensile strength, but it also has a dual function leg developer with a pivot point that aligns with knee joints.',
+      image: 'full2.jpg',
+      price: 2729.99,
+      quantity: 5
     }
+
   ]);
 
   console.log('products seeded');
