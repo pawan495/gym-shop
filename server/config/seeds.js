@@ -172,6 +172,16 @@ db.once('open', async () => {
       quantity: 10
     },
     {
+      name: ' Powertec Workbench Leg Press Accessory (WB-LPA19)      ',
+      category: categories[1]._id,
+      description:
+        'It is named the smallest leg press option in the market. New for 2019 - angled stainless steel weight horns. ',
+      image: 'bench5.jpg',
+      price: 399.99,
+      quantity: 10
+    },
+
+    {
       name: 'ProForm 325 CSX Bike ',
       category: categories[2]._id,
       description:
