@@ -292,6 +292,37 @@ db.once('open', async () => {
       price: 29.99,
       quantity: 600
     },
+
+    {
+      name: 'LOOP BAND (Resistance band)',
+      category: categories[4]._id,
+      description:
+        'use for lateral steps, leg extensions,shoulder stabilization exercises and much more!',
+      image: 'misc1.jpg',
+      price: 4.99,
+      quantity: 200
+    },
+
+    {
+      name: 'XM Pro Slam ball (4-50 lbs)',
+      category: categories[4]._id,
+      description:
+        'The Xtreme Pro Slam Ball is a great conditioning tool for all fitness levels that works the entire body with explosive, functional training movements.',
+      image: 'misc2.jpg',
+      price: 14.99,
+      quantity: 100
+    }, 
+
+    {
+      name: 'Vice Versus Jump Rope',
+      category: categories[4]._id,
+      description:
+        'One of the smoothest PVC Jump Rope.',
+      image: 'misc3.jpg',
+      price: 5.99,
+      quantity: 100
+    }, 
+
     {
       name: 'Marcy Combo Smith Machine',
       category: categories[5]._id,
@@ -304,7 +335,7 @@ db.once('open', async () => {
 
     {
       name: 'Force USA G3 All-In-One Trainer',
-      category: categories[3]._id,
+      category: categories[5]._id,
       description:
         'This Smith machine kind of does it all. Not only does it have steel aircraft cables that are rated at 2,000 pound tensile strength, but it also has a dual function leg developer with a pivot point that aligns with knee joints.',
       image: 'full2.jpg',
