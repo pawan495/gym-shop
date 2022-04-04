@@ -6,7 +6,7 @@
 ## Description
 The gym-shop app is developed by using React to shop some Gym products.
 `video`
-https://watch.screencastify.com/v/CFqKF6JjMftZT2TTa5dQ
+https://drive.google.com/file/d/1niaP5DJVM2mPtNvuBXWojCTrcEO3u1mX/view:
 
 ## Deployed Links
 https://young-thicket-11079.herokuapp.com/
