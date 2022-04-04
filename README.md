@@ -12,3 +12,7 @@ https://drive.google.com/file/d/1niaP5DJVM2mPtNvuBXWojCTrcEO3u1mX/view:
 https://young-thicket-11079.herokuapp.com/
 ## Screenshot
 ![screenshot](pic1.png)
+
+
+`project members`
+Pawanpreet Kaur, Suthan, Micheal Khoury and Tomi
