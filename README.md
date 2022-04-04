@@ -1,10 +1,12 @@
-# Shop-shop
+# gym-shop
 
 * [Description](#description)
 * [Screenshot](#Screenshot)
 
 ## Description
-The Shop-shop app is developed by using React to shop some household products.
+The gym-shop app is developed by using React to shop some Gym products.
+`video`
+https://watch.screencastify.com/v/CFqKF6JjMftZT2TTa5dQ
 
 ## Deployed Links
 https://young-thicket-11079.herokuapp.com/
