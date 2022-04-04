@@ -7,8 +7,6 @@
 The Shop-shop app is developed by using React to shop some household products.
 
 ## Deployed Links
-https://tranquil-headland-68533.herokuapp.com/
+https://young-thicket-11079.herokuapp.com/
 ## Screenshot
-![screenshot](pic1.png),
-![screenshot](pic2.png),
-![screenshot](pic3.png)
+![screenshot](pic1.png)
